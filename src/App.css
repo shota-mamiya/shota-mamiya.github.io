@@ -1,38 +1,129 @@
-.App {
-  text-align: center;
-}
+.main-body {
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
+.name-card {
+  display: flex;
+  margin-right: 500px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.name-card-sub1 {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  font-size: 30pt;
+}
+.name-card-sub1 p {
+  color: rgb(139, 139, 139);
+}
+.name-card-sub1 h1 {
+  margin-top: 0;
+}
+.content-nav-buttons {
+  display: flex;
+}
+.nav-btn {
+  margin: 10px;
+  width: 200px;
+  height: 100px;
+  border-radius: 2px;
+  font-size: 20pt;
+  box-shadow: 3px 3px 1px rgb(102, 102, 102);
+  border: 0px;
+  color: #d8d4cf;
+  background-color: #1b1b1b;
+  float: left;
+}
+
+.nav-btn:hover {
+  box-shadow: 3px 3px 2px rgb(221, 221, 221);
+}
+.content-body-sub1 {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: column;
+  align-items: center;
+}
+.content-text {
+  font-size: 20pt;
+}
+.content-text-contact {
+  margin-top: 2px;
+  text-align: center;
+  font-size: 15pt;
+  width: 85%;
+  height: 30px;
+  align-self: center;
+}
+
+.skills-table {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 20pt;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-form-input {
+  width: 80%;
+  height: 12px;
+  margin-bottom: 10px;
+  padding: 15px;
+  font-size: 15pt;
+  align-self: center;
+  background-color: rgb(59, 59, 59);
   color: white;
+  border: 0;
+  border-radius: 5px;
+}
+.contact-form-message-input {
+  width: 80%;
+  height: 25px;
+  margin-bottom: 10px;
+  padding: 15px;
+  font-size: 15pt;
+  align-self: center;
+  background-color: rgb(59, 59, 59);
+  color: white;
+  border: 0;
+  border-radius: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.contact-form-submit {
+
+  width: 84%;
+  align-self: center;
+  height: 50px;
+  padding: 15px;
+  font-size: 15pt;
+  border: 0;
+  border-radius: 5px;
+  background-color:rgb(97, 97, 97);
+  cursor: pointer;
+  color:rgb(221, 221, 221);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contact-form-submit:hover {
+  background-color: rgb(112, 112, 112);
+}
+
+.skill-logos {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.skill-logo {
+  margin: 10px;
 }
