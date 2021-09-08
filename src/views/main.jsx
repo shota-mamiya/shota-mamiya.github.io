@@ -27,7 +27,8 @@ export default () => {
                         </Link>
                     </div>
                     <div className="content-body-sub1">
-                        <p className="content-text">Hello, my name is Shota Mamiya and I am from Seattle, Washington. I have a background in 3D design with a focus in the automotive industry</p>
+                        <p className="content-text">Hello, my name is Shota Mamiya and I am from Seattle, Washington. I have a background in 3D design pivoting into the software and web development industry.
+                        With the willingness to learn and the ability to adapt quickly I would be a very productive addition to any team.</p>
                     </div>
                 </div>
 
